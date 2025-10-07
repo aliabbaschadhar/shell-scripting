@@ -16,7 +16,7 @@ while [ $count -lt 5 ]; do
 done
 
 # Do while loop
-
+# Do while loop doesn't exists in bash scripting but we can simulate it using until.
 shaka=8
 until [ $shaka -lt 5 ]; do
 	echo "Shaka is $shaka"
